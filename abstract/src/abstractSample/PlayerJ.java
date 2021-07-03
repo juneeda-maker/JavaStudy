@@ -1,11 +1,11 @@
 package abstractSample;
 
-abstract public class Player {
+abstract public class PlayerJ {
 	
 	boolean pause;		//일시정지 상태를 저장하기 위한 변수
 	int currentPos;		//현재 Play 되고 있는 위치를 저장하기 위한 변수
 	
-	Player() 			//추상클래스도 생성자가 있어야한다.
+	PlayerJ() 			//추상클래스도 생성자가 있어야한다.
 	{
 		pause = false;
 		currentPos = 0;
